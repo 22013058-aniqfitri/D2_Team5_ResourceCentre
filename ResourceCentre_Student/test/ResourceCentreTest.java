@@ -109,7 +109,7 @@ public class ResourceCentreTest {
 
 	@Test
 	public void testRetrieveAllChromebook() {
-		// Not done
+		// Not done :)
 		//fail("Not yet implemented");
 		// write your code here
 		// Test if the output is empty
