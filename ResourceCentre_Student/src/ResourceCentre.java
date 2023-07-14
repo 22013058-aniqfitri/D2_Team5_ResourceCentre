@@ -220,7 +220,7 @@ public class ResourceCentre {
 	}
 	
 	//================================= Option 3 Loan an item (CRUD - Update) =================================
-	public static boolean doLoanCamcorder(ArrayList<Camcorder> camcorderList, String tag, String dueDate) {
+public static boolean doLoanCamcorder(ArrayList<Camcorder> camcorderList, String tag, String dueDate) {
 		
 		boolean isLoaned = false;
 
@@ -268,7 +268,15 @@ public class ResourceCentre {
 				isLoaned = true;
 			}
 		}
+<<<<<<< HEAD
 		return isLoaned;
+=======
+		
+		return isLoaned;
+	
+		
+		
+>>>>>>> branch 'master' of https://github.com/22013058-aniqfitri/D2_Team5_ResourceCentre.git
 	}
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		// write your code here		
